@@ -14,4 +14,16 @@
 <% end%>
 
 
+<% if(params.has_key?(:id) && 
+      params.has_key?(:random_parameter))
+      @id = params['id']
+      @random = params['random_parameter'] %><br/>
+      <%= "ID : #{params[:id]}" %><br/>
+      <%= "RANDOM PARAM : #{params[:random_parameter]}" %><br/>
+
+<% end %>
+
+
+
+
 
