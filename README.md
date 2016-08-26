@@ -1,4 +1,4 @@
-<h1> Sample Ruby On Rails App for Practice <h1>
+<h1> Sample Ruby On Rails App for Practice </h1>
 
 <br/>
 Followed tutorial here : 
